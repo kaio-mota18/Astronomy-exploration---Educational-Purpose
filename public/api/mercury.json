@@ -7,7 +7,21 @@
     "name": "Mercury",
     "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς.",
     "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/220px-Mercury_in_true_color.jpg",
-    "link": "https://en.wikipedia.org/wiki/Mercury_(planet)"
-  }
+    "link": "https://solarsystem.nasa.gov/planets/mercury/overview/"
+  },
+  "curiosities":[
+    {
+      "news": "Mercury speeds around the sun every 88 Earth days, hurtling along at nearly 29 miles (47 kilometers) per second.",
+      "picture": "https://s.yimg.com/ny/api/res/1.2/WTYXfcesh91gt0BW1ElAPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM1OQ--/https://media.zenfs.com/en/live_science_953/7f15ed49368c571c9284b1a01afe9ac4"
+    },
+    {
+      "news": "In 2012, NASA's MESSENGER spacecraft discovered water ice inside some of Mercury's craters. ",
+      "picture": "https://astronomy.com/-/media/Images/News%20and%20Observing/News/2021/03/MESSENGER.jpg?mw=600"
+    },
+    {
+      "news": "Mercury has the thinnest atmosphere of any planet in the solar system. ",
+      "picture": "https://scx1.b-cdn.net/csz/news/800a/2015/whatsimporta.jpg"
+    }    
+  ]
 
 }
