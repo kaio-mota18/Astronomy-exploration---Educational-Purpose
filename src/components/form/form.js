@@ -5,8 +5,6 @@ function Form() {
   // Função para declarar os estados que serão mudados com as informações recebidas pelo formulário
   const [form, setForm] = useState({
     name: '',
-    age: '',
-    city: '',
     email: ''
   })
 
@@ -18,22 +16,13 @@ function Form() {
   // Função que será utlizada para checar se o formulário foi enviado
   const [submitted, setSubmitted] = useState(false)
 
-  function handleSubmit(event) {
-    event.preventDefault()
-    setSubmitted(true)
-  }
-
   // Função para cehcar se o formulário foi validado
   const [valid, setValid] = useState(false)
 
   function validatedAndSubmitted(event) {
     event.preventDefault()
-    if (
-      form.name !== '' &&
-      form.city !== '' &&
-      form.age !== '' &&
-      form.email !== ''
-    ) {
+    setSubmitted(true)
+    if (form.name !== '' && form.email !== '') {
       setValid(true)
     } else {
       setValid(false)
@@ -46,31 +35,13 @@ function Form() {
         <div className="main-form-content">
           <div className="form-container">
             <div>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={validatedAndSubmitted}>
                 <input
                   type="text"
                   className="form-row"
-                  placeholder="Full name"
+                  placeholder="How would you like to be called?"
                   name="name"
                   value={form.name}
-                  onChange={handleChange}
-                />
-
-                <input
-                  type="text"
-                  className="form-row"
-                  placeholder="City"
-                  name="city"
-                  value={form.city}
-                  onChange={handleChange}
-                />
-
-                <input
-                  type="text"
-                  className="form-row"
-                  placeholder="Age"
-                  name="age"
-                  value={form.age}
                   onChange={handleChange}
                 />
 
@@ -116,30 +87,6 @@ function Form() {
                 <input
                   type="text"
                   className="form-row-imcomplete"
-                  placeholder="City"
-                  name="city"
-                  value={form.city}
-                  onChange={handleChange}
-                />
-                {submitted && !form.city ? (
-                  <span className="imcomplete">Please, enter your city</span>
-                ) : null}
-
-                <input
-                  type="text"
-                  className="form-row-imcomplete"
-                  placeholder="Age"
-                  name="age"
-                  value={form.age}
-                  onChange={handleChange}
-                />
-                {submitted && !form.age ? (
-                  <span className="imcomplete">Please, enter your age</span>
-                ) : null}
-
-                <input
-                  type="text"
-                  className="form-row-imcomplete"
                   placeholder="Email"
                   name="email"
                   value={form.email}
@@ -165,16 +112,33 @@ function Form() {
       <Fragment>
         <div className="main-form-content">
           <div className="form-container">
-            <div className="containersub">
-              <strong>
-                <p className="text-submitted">Thanks for subscribing!</p>
-              </strong>
-              <figure className="submitted-figure">
-                <img
-                  src="https://avatarfiles.alphacoders.com/169/thumb-169513.png"
-                  alt="Figure of an astronaut greeting people"
-                ></img>
-              </figure>
+            <div>
+              <span>
+                <p className="allright">Thank you for subscribing!</p>
+              </span>
+              <form onSubmit={validatedAndSubmitted}>
+                <input
+                  type="text"
+                  className="form-row"
+                  placeholder="How would you like to be called?"
+                  name="name"
+                  value={form.name}
+                  onChange={handleChange}
+                />
+
+                <input
+                  type="text"
+                  className="form-row"
+                  placeholder="Email"
+                  name="email"
+                  value={form.email}
+                  onChange={handleChange}
+                />
+
+                <button className="submit-button" type="submit">
+                  Subscribe
+                </button>
+              </form>
             </div>
           </div>
         </div>

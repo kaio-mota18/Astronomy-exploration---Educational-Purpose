@@ -1,16 +1,26 @@
 {
-  "satellites": [
-    {"name": "Phobos"},
-    {"name": "Deimos"},
-    {"name": "Umbriel"},
-    {"name": "Titania"},
-    {"name": "Oberon"}
-  ],
+ 
   "data": {
     "id": "mars",
     "name": "Mars",
     "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. In English, Mars carries a name of the Roman god of war and is often referred to as the 'Red Planet'.",
     "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/220px-OSIRIS_Mars_true_color.jpg",
     "link": "https://en.wikipedia.org/wiki/Mars"
-  }
+  },
+  "curiosities":[
+    {
+      "news": "There is no evidence of life on Mars. However, it is the planet with the best conditions to support life.",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhlbR2QO1DCR1HMMePylCw9w0Qp9bOI3uWA&usqp=CAU"
+    },
+    {
+      "news": "Mars has north and south poles like earth. ",
+      "picture": "https://i0.wp.com/eos.org/wp-content/uploads/2017/02/mars-north-polar-cap.jpg?fit=820%2C615&ssl=1"
+    },
+    {
+      "news": "Mars experiences violent dust storms powered by the sun which can last for months. ",
+      "picture": "https://th-thumbnailer.cdn-si-edu.com/FP31zzMugq4RZ22wMvMwL3HMkb8=/fit-in/1600x0/filters:focal(4314x1200:4315x1201)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/c6/2c/c62cafb1-5487-4188-8a68-30b4e4a2dd4c/gettyimages-1227506239.jpg"
+    }    
+  ]
+  
+  
 }

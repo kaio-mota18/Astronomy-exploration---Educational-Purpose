@@ -18,11 +18,11 @@
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  background-color: rgb(165, 172, 162);
+  background-color: rgb(0, 0, 0);
   border: 1px transparent solid;
   border-radius: 10px;
   width: 200px;
-  height: 210px;
+  height: 140px;
   padding: 20px;
   margin: 10px 0px 10px 0px;;
   transition: 0.4s;
@@ -34,7 +34,7 @@
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  background-color: rgb(165, 172, 162);
+  background-color: rgb(0, 0, 0);
   border: 1px transparent solid;
   border-radius: 10px;
   width: 200px;
@@ -43,20 +43,6 @@
   margin: 10px 0px 10px 0px;;
   transition: 0.4s;
 }
-
-.form-container-imcomplete:hover{
-  background-color: rgb(236, 236, 207);
-  border: 1px rgb(10, 10, 10) solid;
-  transition: 0.4s;
-}
-
-.form-container:hover{
-  background-color: rgb(236, 236, 207);
-  border: 1px rgb(10, 10, 10) solid;
-  transition: 0.4s;
-}
-
-
 
 .form-row{
   margin-top: 10px;
@@ -88,16 +74,31 @@
 }
 
 .text-submitted{
+  color: #faebd7;
+  justify-content: center;
   align-self: center;
-  font-size: 18px;
+  font-size: 0.95rem;
   margin-bottom: 10px;;
 }
 
-.submitted-figure{
-  display: flex;
-  height: 185px;
-  width: 185px;
-  border-radius: 50%;
-  overflow: hidden;
-   
+.containersub{
+  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.allright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    background-color: rgb(74, 191, 199);
+    padding: 0.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 95%;
+    align-content: center;   
+  
 }

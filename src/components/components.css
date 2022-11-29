@@ -1,7 +1,18 @@
-.main-title{
-  display: flex;
+.body-short-description{
+  background-image: url(../../public/assets/background.webp);
+  background-repeat: repeat;
+  background-size:contain;
+  background-position: center center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.form{
+  display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
-  margin-bottom: 30px;
 }

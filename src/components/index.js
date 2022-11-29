@@ -1,12 +1,14 @@
-import PlanetDescription from './planets/planet_description'
+import PlanetShotDescription from './planets/planet_short_description'
 import './components.css'
 import React from 'react'
 import { Fragment } from 'react'
 import { useState, useEffect } from 'react'
 import Form from './form/form'
+import Header from './header/header'
+import Footer from './shared/footer/footer'
 
-async function getPlanets() {
-  let response = await fetch('http://localhost:3000/api/planets.json')
+async function getPlanets(id) {
+  let response = await fetch(`http://localhost:3000/api/planets.json`)
   let data = await response.json()
   return data
 }
@@ -23,24 +25,26 @@ function Planets() {
     })
   })
 
-  // Aliarei a manipulação do array planets, que consome uma API, junto com o uso de um componente importado que criar cards. A API fornecerá os valores e dados que serão inseridos no seu componente.
   return (
-    <Fragment>
-      <h4 className="main-title">Planets' List</h4>
+    <div className="body-short-description">
+      <Fragment>
+        <Header />
+        <div className="grid-container">
+          {planets.map(planet => (
+            <PlanetShotDescription
+              key={planet.id}
+              name={planet.name}
+              img_url={planet.img_url}
+            />
+          ))}
+        </div>
+        <div className="form">
+          <Form />
+        </div>
 
-      {planets.map(planet => (
-        <PlanetDescription
-          key={planet.id}
-          name={planet.name}
-          img_url={planet.img_url}
-          description={planet.description}
-          link={planet.link}
-        />
-      ))}
-      <Form />
-      {/* Aqui eu vou criar a sidebar e colocar o componente que ainda vou criar que é esse componente extra
-       */}
-    </Fragment>
+        <Footer />
+      </Fragment>
+    </div>
   )
 }
 

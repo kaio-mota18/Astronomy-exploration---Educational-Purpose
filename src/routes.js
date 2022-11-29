@@ -1,13 +1,19 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import PlanetScreen from './screens/planets'
+import PlanetsScreen from './screens/planets'
+import PlanetScreen from './screens/planet'
+import PageNotFoundScreen from './screens/notfound'
+import ScrollToTop from './components/scrolltotop'
 
 const RoutesOfApp = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
-        <Route exact path="/" element={<PlanetScreen />} />
+        <Route exact path="/" element={<PlanetsScreen />} />
+        <Route exact path="/planet/:id" element={<PlanetScreen />} />
+        <Route path="*" element={<PageNotFoundScreen />} />
       </Routes>
     </BrowserRouter>
   )

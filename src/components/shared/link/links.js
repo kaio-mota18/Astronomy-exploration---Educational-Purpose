@@ -1,15 +1,19 @@
 import './link.css'
 import React from 'react'
+import { SiNasa } from 'react-icons/si'
 
-function Link(props) {
+function LinkToContent(props) {
   return (
     <div className="link-description">
-      <p>
-        Link:
-        <a href={props.link}> {props.link}</a>
+      <p className="link-text">
+        <SiNasa className="icons" />:
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+          {' '}
+          {props.link}
+        </a>
       </p>
     </div>
   )
 }
 
-export default Link
+export default LinkToContent

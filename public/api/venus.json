@@ -1,0 +1,13 @@
+{
+  "satellites":[
+    {"name": "None"}
+  ],
+  "data": {
+    "id": "venus",
+    "name": "Venus",
+    "description": "Venus is the second planet from the Sun. It is sometimes called Earth's sister or twin planet as it is almost as large and has a similar composition. As an interior planet to Earth, Venus (like Mercury) appears in Earth's sky never far from the Sun, either as morning star or evening star.",
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/220px-Venus_2_Approach_Image.jpg",
+    "link": "https://en.wikipedia.org/wiki/Venus"
+  }
+
+}

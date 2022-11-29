@@ -1,0 +1,13 @@
+{
+  "satellites":[
+    {"name": "Features 7 sets of surrounding rings and 82 moons"}
+  ],
+  "data":  {
+    "id": "saturn",
+    "name": "Saturn",
+    "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.[23][24] It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.",
+    "img_url": "https://hips.hearstapps.com/hmg-prod/images/saturn-rings-north-jpg-1545253907.jpg?crop=0.512xw:1.00xh;0.248xw,0&resize=640:*",
+    "link": "https://en.wikipedia.org/wiki/Saturn"
+  }
+
+}

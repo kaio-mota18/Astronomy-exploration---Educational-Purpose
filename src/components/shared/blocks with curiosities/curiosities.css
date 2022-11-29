@@ -1,0 +1,40 @@
+.flex-curiosities{
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;  
+  background-color: rgba(24, 12, 12, 0.171);
+}
+
+.curiosities-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+
+ 
+  height: 15rem;
+  width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  
+  
+}
+
+.text-curiosities{
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  
+}
+
+
+.picture-of-curiosity{
+  border-radius: 0.7rem;
+  margin-bottom: 0.5rem;
+  height: 250px;
+  width: 250px;
+}
+

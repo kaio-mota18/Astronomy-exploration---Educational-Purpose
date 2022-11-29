@@ -2,5 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  color: rgb(250, 235, 215);
+}
+
+.link-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  color: rgb(211, 210, 197);
+  height: 4rem;
+  width: 4rem;
 }

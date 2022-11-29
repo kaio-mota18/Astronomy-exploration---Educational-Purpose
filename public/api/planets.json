@@ -1,6 +1,27 @@
 {
   "planets": [
     {
+      "id": "mercury",
+      "name": "Mercury",
+      "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς.",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/220px-Mercury_in_true_color.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "description": "Venus is the second planet from the Sun. It is sometimes called Earth's sister or twin planet as it is almost as large and has a similar composition. As an interior planet to Earth, Venus (like Mercury) appears in Earth's sky never far from the Sun, either as morning star or evening star.",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Venus_2_Approach_Image.jpg/220px-Venus_2_Approach_Image.jpg",
+      "link": "https://en.wikipedia.org/wiki/Venus"
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/220px-The_Blue_Marble_%28remastered%29.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
       "id": "mars",
       "name": "Mars",
       "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. In English, Mars carries a name of the Roman god of war and is often referred to as the 'Red Planet'.",
@@ -8,19 +29,41 @@
       "link": "https://en.wikipedia.org/wiki/Mars"
     },
     {
-      "id": "pluto",
-      "name": "Pluto",
-      "description": "Pluto (minor planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond Neptune. It was the first Kuiper belt object to be discovered and is the largest known plutoid (or ice dwarf).",
-      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/280px-Pluto_in_True_Color_-_High-Res.jpg",
-      "link": "https://en.wikipedia.org/wiki/Pluto"
-    },    
+      "id": "jupiter",
+      "name": "Jupiter",
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times.",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jupiter_New_Horizons.jpg/220px-Jupiter_New_Horizons.jpg",
+      "link": "https://en.wikipedia.org/wiki/Jupiter"
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.[23][24] It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.",
+      "img_url": "https://hips.hearstapps.com/hmg-prod/images/saturn-rings-north-jpg-1545253907.jpg?crop=0.512xw:1.00xh;0.248xw,0&resize=640:*",
+      "link": "https://en.wikipedia.org/wiki/Saturn"
+    },
     {
       "id": "uranus",
       "name": "Uranus",
       "description": "Uranus (from the Latin name Ūranus for the Greek god Οὐρανός) is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
       "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/280px-Uranus2.jpg",
       "link": "https://en.wikipedia.org/wiki/Uranus"
-    }
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "description": "Neptune is the eighth planet from the Sun and the farthest known planet in the Solar System. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus.",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/220px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+      "link": "https://en.wikipedia.org/wiki/Neptune"
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto",
+      "description": "Pluto (minor planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond Neptune. It was the first Kuiper belt object to be discovered and is the largest known plutoid (or ice dwarf).",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/280px-Pluto_in_True_Color_-_High-Res.jpg",
+      "link": "https://en.wikipedia.org/wiki/Pluto"
+    }   
+    
 
   ]
 }

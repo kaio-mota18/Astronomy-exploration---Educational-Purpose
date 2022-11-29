@@ -1,0 +1,13 @@
+{
+  "satellites":[
+    {"name": "Moon"}
+  ],
+  "data": {
+    "id": "earth",
+    "name": "Earth",
+    "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers.",
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/220px-The_Blue_Marble_%28remastered%29.jpg",
+    "link": "https://en.wikipedia.org/wiki/Mars"
+  }
+
+}
