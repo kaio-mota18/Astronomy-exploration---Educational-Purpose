@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fragment } from 'react'
 import './header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -9,12 +10,16 @@ function Header() {
         <h4 className="main-title">Solar System's Planets</h4>
 
         <nav className="nav-bar">
-          <button type="button" className="nav-button">
-            Home
-          </button>
-          <button type="button" className="nav-button">
-            About the project
-          </button>
+          <Link to="/">
+            <button type="button" className="nav-button">
+              Home
+            </button>
+          </Link>
+          <Link to="./about">
+            <button type="button" className="nav-button">
+              About the project
+            </button>
+          </Link>
           <button type="button" className="nav-button">
             Contact us
           </button>

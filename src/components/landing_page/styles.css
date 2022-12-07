@@ -1,0 +1,34 @@
+.body-landing{
+ background-image: url(../../../public/assets/3.webp);
+ background-repeat: repeat;
+ background-position: center center;
+ background-size:cover;
+filter:grayscale(70%); 
+ 
+}
+
+.main-content-landing{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  padding: 1rem;
+  width: 800px;
+}
+
+.titles-landing{
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.text-landing{
+  text-align: justify;
+  font-size: 1.5rem;;
+  color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 0.2rem;;
+}
