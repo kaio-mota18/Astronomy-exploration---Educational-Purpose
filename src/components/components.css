@@ -10,6 +10,15 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+
+/* Media query for grid-container */
+
+@media (max-width: 1300px){
+  .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .form{
   display:flex;
   flex-direction: column;
