@@ -38,7 +38,7 @@ This project aims to attend both native-English speakers and ESL-students that a
   
   You will need to use a terminal to run it. I have used NPM and the script command will be the same I use in my machine. However, it also works with yarn.
   
-  <strong>npm run start<strong/>
+  <strong>npm run start</strong>
   
 ### 6 - Next updates
     
