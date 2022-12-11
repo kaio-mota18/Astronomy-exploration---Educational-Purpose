@@ -8,11 +8,6 @@
 
 /* Media query for adapting the screen for smaller devices */
 
-@media (max-width: 1300px){
-  .container-short-description{
-    width: 400px;
-    }
-}
 
 
 .card-short-description{
@@ -33,12 +28,20 @@
   
 }
 
+@media (max-width: 500px){
+  .card-short-description{
+    width: 18rem;
+    height: 25.5rem;
+  }
+}
+
 .card-short-description:hover{
   background-color: rgb(58, 58, 57);
   border: 2px solid rgb(12, 8, 8);
   transition: 0.4s;
   
 }
+
 
 .card-title-short-description{
   font-size: 35px;
@@ -47,6 +50,13 @@
   padding: 10px;
   border: 1px solid transparent;
   color: rgb(252, 237, 237);
+}
+
+@media (max-width:500px){
+  .card-title-short-description{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 }
 
 .card-title-short-description:hover{
@@ -71,15 +81,21 @@
   cursor: pointer;
 }
 
+@media (max-width: 500px){
+  .btt-short-description{
+    font-size: 0.7rem;
+  }
+}
+
 /* Icons */
 
 .icon-rocket{
   color: rgb(238, 238, 62);
-  font-size: 1.5rem;
+  font-size: 0.7rem;
 }
 
 
-/* SIDEBAR CONTENT */
+
 
 
 

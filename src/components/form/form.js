@@ -4,7 +4,6 @@ import './style.css'
 function Form() {
   // Função para declarar os estados que serão mudados com as informações recebidas pelo formulário
   const [form, setForm] = useState({
-    name: '',
     email: ''
   })
 
@@ -22,7 +21,7 @@ function Form() {
   function validatedAndSubmitted(event) {
     event.preventDefault()
     setSubmitted(true)
-    if (form.name !== '' && form.email !== '') {
+    if (form.email !== '') {
       setValid(true)
     } else {
       setValid(false)
@@ -36,15 +35,6 @@ function Form() {
           <div className="form-container">
             <div>
               <form onSubmit={validatedAndSubmitted}>
-                <input
-                  type="text"
-                  className="form-row"
-                  placeholder="How would you like to be called?"
-                  name="name"
-                  value={form.name}
-                  onChange={handleChange}
-                />
-
                 <input
                   type="text"
                   className="form-row"
@@ -70,20 +60,6 @@ function Form() {
           <div className="form-container">
             <div>
               <form onSubmit={validatedAndSubmitted}>
-                <input
-                  type="text"
-                  className="form-row-imcomplete"
-                  placeholder="Full name"
-                  name="name"
-                  value={form.name}
-                  onChange={handleChange}
-                />
-                {submitted && !form.name ? (
-                  <span className="imcomplete">
-                    Please, enter your full name
-                  </span>
-                ) : null}
-
                 <input
                   type="text"
                   className="form-row-imcomplete"
@@ -117,15 +93,6 @@ function Form() {
                 <p className="allright">Thank you for subscribing!</p>
               </span>
               <form onSubmit={validatedAndSubmitted}>
-                <input
-                  type="text"
-                  className="form-row"
-                  placeholder="How would you like to be called?"
-                  name="name"
-                  value={form.name}
-                  onChange={handleChange}
-                />
-
                 <input
                   type="text"
                   className="form-row"

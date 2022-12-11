@@ -23,3 +23,12 @@
   color: rgb(250, 224, 191);
   font-size: 1.5rem;
 }
+
+@media (max-width: 400px){
+  .copyright-text{
+    font-size: 1.1rem;
+  }
+  .icons-footer{
+    font-size: 1.1rem;
+  }
+}

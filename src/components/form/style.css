@@ -28,6 +28,13 @@
   transition: 0.4s;
 }
 
+@media (max-width: 500px){
+  .form-container{
+    height: 110px;
+    width: 150px;
+  }
+}
+
 .form-container-imcomplete{
   display: flex;
   flex-direction: column;

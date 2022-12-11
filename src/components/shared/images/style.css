@@ -6,7 +6,12 @@
   padding: 10px 30px 10px 30px;
 }
 
-
-
+@media (max-width: 500px){
+  .image-card{
+    height: 220px;
+    width: 220px;
+    margin-top: 10px;
+  }
+}
 
 
