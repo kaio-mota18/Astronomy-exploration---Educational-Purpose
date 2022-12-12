@@ -19,3 +19,21 @@
   height: 4rem;
   width: 4rem;
 }
+
+/* Media Queries */
+
+@media (max-width: 1300px){
+  .link-text{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 975px){
+  .icons{
+    height: 3rem;
+    width: 3rem;
+  }
+  .link-text{
+    font-size: 0.9rem;
+  }
+}

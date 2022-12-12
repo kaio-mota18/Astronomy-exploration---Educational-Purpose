@@ -77,7 +77,6 @@ function PlanetFullDescription() {
           </div>
         </div>
       </div>
-
       <div className="grid-curiosities">
         {curiosities.map(curiosities => (
           <Curiosities link={curiosities.picture} news={curiosities.news} />
