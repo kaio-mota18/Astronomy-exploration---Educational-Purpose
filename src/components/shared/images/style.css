@@ -14,4 +14,12 @@
   }
 }
 
+@media (max-width: 350px){
+  .image-card{
+    height: 154px;
+    width: 154px;
+    margin-top: 5px;
+  }
+}
+
 

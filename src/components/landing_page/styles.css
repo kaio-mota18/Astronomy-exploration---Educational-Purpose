@@ -32,3 +32,35 @@ filter:grayscale(70%);
   padding: 1rem;
   margin-bottom: 0.2rem;;
 }
+
+@media (max-width: 838px){
+  .main-content-landing{
+    width: 505px;
+  }
+  .titles-landing{
+    font-size: 1.6rem;
+  }
+  .text-landing{
+    font-size: 1.1rem;;
+  }
+}
+
+@media (max-width:540px){
+  .main-content-landing{
+    width: 400px;
+  }
+}
+
+@media (max-width:430px){
+  .main-content-landing{
+    width: 350px;
+  }
+}
+
+@media (max-width:390px){
+  .main-content-landing{
+    width: 300px;
+    align-items: center;
+    margin-top: 2px;
+  }
+}
