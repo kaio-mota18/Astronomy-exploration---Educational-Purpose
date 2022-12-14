@@ -40,8 +40,8 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 15px;
-  width: 450px;
   height: 600px;  
+  width: 450px;
   background-color: transparent;
   
   margin-bottom: 15px;
@@ -161,8 +161,8 @@
 
 @media (max-width: 800px){
   .photo-full-description{
-   height: 195px;
-   width: 30%;
+   height: 200px;
+   width: 28%;
   }
 }
 
@@ -177,20 +177,47 @@
 
 @media (max-width: 478px){
   .photo-full-description{
-   height: 130px;
-   width: 30%;
+   height: 150px;
+   width: 35%;
      }
      .card-title{
       font-size: 30px;
      }
      .card-description{
-      font-size: 0.9rem;
+      font-size: 1rem;
      }
      .card{
-      height: 450 px;
+      height: 450px;
       width:90%;
       margin-left: 1rem;
       margin-right: 1rem;
      }
+
+     .card-description{
+      height: 200px;
+      padding: 0;
+      margin: 0;
+     }
 }
 
+@media (max-width: 430px){
+  .card{
+    height: 500px
+  }
+  .card-description{
+    height: 200px;
+    margin-right: 5px;
+    text-align: justify;
+    
+   }
+}
+
+@media (max-width: 375px){
+  .card-description{
+    height: 250px;
+    width: 300px;
+  }
+  .photo-full-description{
+    width: 40%;
+  }
+}

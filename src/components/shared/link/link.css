@@ -37,3 +37,18 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width:375px){
+  .link-description{
+    flex-direction: column;
+  }
+  .link-text{
+    flex-direction: column;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    padding: 2px;
+  }
+  .icons{
+    margin: 0;
+  }
+}
