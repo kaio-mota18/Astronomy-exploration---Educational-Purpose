@@ -43,6 +43,9 @@ This project aims to attend both native-English speakers and ESL-students that a
 ### 6 - Next updates
     
 Since I was focused in developing the components and the logic to consume the API I had created, I didn't pay the proper attention about the resposive aspect of it. It's needless to say it is very important since the goal of this project is to use it in class and most of the students don't bring a laptop to classroom.
+
+<strong>Update 14/12/2022 </strong><br>
+> The responsiveness for tablets and smartphones has been updated.
     
 Another future feature will be the newsletter. Even though I pointed newsletter and contact us as different phases of the project, I believe they'll be updated almost together.
   
