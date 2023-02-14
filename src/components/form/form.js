@@ -45,7 +45,7 @@ function Form() {
                 />
 
                 <button className="submit-button" type="submit">
-                  Subscribe
+                  Be updated!
                 </button>
               </form>
             </div>
